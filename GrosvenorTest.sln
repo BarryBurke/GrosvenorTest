@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrosvenorMsDosEmulator", "GrosvenorMsDosEmulator\GrosvenorMsDosEmulator.csproj", "{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrosvenorTextEditor.UI", "GrosvenorWordApp\GrosvenorTextEditor.UI.csproj", "{DE2D5B46-6242-4C52-9905-4A758801791D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrosvenorTextEditor.BusinesLogic", "GrosvenorWordApp.BusinesLogic\GrosvenorTextEditor.BusinesLogic.csproj", "{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextEditor", "TextEditor", "{94814C41-C3B7-4FBD-9F6F-307CF2EE17E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsDosEmulator", "MsDosEmulator", "{EF1F9ADA-9BA3-4D75-90B7-069B2D54E3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrosvenorTextEditor.Tests", "GrosvenorWordApp.Tests\GrosvenorTextEditor.Tests.csproj", "{F92070E8-0C2D-4B26-859C-82C11F5C0210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54778B90-E960-4065-BA6D-33DBB52F3002}"
+	ProjectSection(SolutionItems) = preProject
+		GrosvenorTest.vsmdi = GrosvenorTest.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80434B03-1165-4DD1-94F6-82ABD8FB3546}"
+	ProjectSection(SolutionItems) = preProject
+		NET Development Test.docx = NET Development Test.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GrosvenorTest.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Debug|x86.ActiveCfg = Debug|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Debug|x86.Build.0 = Debug|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Release|Any CPU.ActiveCfg = Release|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Release|x86.ActiveCfg = Release|x86
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5}.Release|x86.Build.0 = Release|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Debug|x86.ActiveCfg = Debug|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Debug|x86.Build.0 = Debug|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Release|Any CPU.ActiveCfg = Release|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Release|x86.ActiveCfg = Release|x86
+		{DE2D5B46-6242-4C52-9905-4A758801791D}.Release|x86.Build.0 = Release|x86
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE}.Release|x86.ActiveCfg = Release|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B9D011D-B1E3-4D9E-8238-45E8408EE7D5} = {EF1F9ADA-9BA3-4D75-90B7-069B2D54E3EB}
+		{098B77AC-1BE5-4BC5-AF60-D0A32D04DEDE} = {94814C41-C3B7-4FBD-9F6F-307CF2EE17E2}
+		{DE2D5B46-6242-4C52-9905-4A758801791D} = {94814C41-C3B7-4FBD-9F6F-307CF2EE17E2}
+		{F92070E8-0C2D-4B26-859C-82C11F5C0210} = {94814C41-C3B7-4FBD-9F6F-307CF2EE17E2}
+		{54778B90-E960-4065-BA6D-33DBB52F3002} = {94814C41-C3B7-4FBD-9F6F-307CF2EE17E2}
+	EndGlobalSection
+EndGlobal
